@@ -1,0 +1,15 @@
+<p>Type moves like <code>e,e,n,n,w</code>:</p>
+<form method="POST" action="http://localhost:4000/">
+  <input type="text" name="moves" placeholder="Enter movements separated by coma" size="50" />
+  <input type="submit" value="Try it" />
+</form>
+<h3>Movements:</h3>
+<ul>
+  <li>"n" for north or up in our map</li>
+  <li>"s" for south or down in our map</li>
+  <li>"e" for east or right in our map</li>
+  <li>"w" for west or left in our map</li>
+</ul>
+<% if (movingResult) { %>
+<p>Result: <%= movingResult %></p>
+<% } %>

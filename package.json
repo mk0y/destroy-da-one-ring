@@ -1,0 +1,24 @@
+{
+  "name": "destroy-da-one-ring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^9.3.1",
+    "axios": "^0.19.2",
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  }
+}
